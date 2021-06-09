@@ -32,7 +32,9 @@ if($res->num_rows >0)
                     <td><?php echo $row['city']?></td>
                     <td><a href="edit.php?id=<?php echo $row['id']?>">
                     <input type="button" value="Edit"></a></td>
-                    <td><input type="button" value="Delete"></td>
+                    <td><a href="delete.php?id=<?php echo $row['id']?>">
+                    <input type="button" value="Delete"></a></td>
+                    
                 </tr>
                <?php }
                ?>

@@ -22,7 +22,7 @@ else
   <title>Form</title>
 </head>
 <body>
-<form  action="question2.php" method="get">
+<form  action="question2e.php" method="get">
   <br><br><br>USERNAME <input type="text" name="username" placeholder="Name" required=""><br><br>
   E-MAIL<input type="email" name="email" placeholder="abc@gmail.com" required=""><br><br>
   CONTACT<input type="number" name="contact" placeholder="Mobile Number" size="10" required><br><br>
